@@ -1,0 +1,17 @@
+{
+  "name": "cw-2",
+  "version": "1.0.0",
+  "description": "scrabble cw",
+  "scripts": {
+    "devstart": "nodemon app.js",
+    "start": "node app.js",
+    "setup": "npm i --prod"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
